@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "mini-biblioteca"
+version = "0.1.0"
+description = ""
+authors = ["Carlos <seu@email.com>"]
+
+packages = [
+    { include = "mini_biblioteca", from = "src" }
+]
